@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebZoo</title>
+    <link rel="shortcut icon" href="assets/logo/webzoo_logo - Copia.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/logo/webzoo_logo.png" alt="Logo do WebZoo">
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#animais">Animais</a>
+            <a href="#participe">Participe</a>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre" class="sob">
+            <h2>Sobre o WebZoo</h2>
+            <p>O WebZoo é uma plataforma de educação ambiental do Zoológico de São Paulo. Seu objetivo é apresentar animais e seus ambientes, compartilhar curiosidades e incentivar o cuidado com a natureza.</p>
+            <p>Com um ambiente que simula os habitats naturais dos animais que abrigamos, conseguimos fazer com que eles sintam cada vez mais que estão na própria natureza.</p>
+            <img src="assets/imagens/floresta.png" alt="Habitats">
+            <p>Todos os nossos animais são resgatados e em condições em que não sobreviveriam sozinhos se de volta para a natureza</p>
+            <br>
+        </section>
+        <section id="animais" class="ani">
+            <h2>Nossos Animais</h2>
+            <h3>Onça-Pintada</h3>
+            <img src="assets/imagens/onca_pintada.png" alt="Onça Pintada">
+            <p>A onça-pintada é um felino de pelagem marcada por manchas. É carnívora e pode ser encontrada em ambientes como florestas e áreas do Pantanal.
+            </p>
+            <p>Também é um animal considerado Brasileiro, pois sua espécie se habita marjoritariamente em território Brasileiro</p>
+            <br><br>
+            <h3>Capivara</h3>
+            <img src="assets/imagens/capivara.png" alt="Capivara">
+            <p>A capivara é um roedor que vive em grupos e costuma permanecer perto de rios e lagos. É herbívora e se alimenta de plantas.
+            </p>
+            <p>Também é outro animal considerado brasileiro, inclusive virando patrimônio cultural.</p>
+            <br><br>
+            <h3>Tucano-Toco</h3>
+            <img src="assets/imagens/tucano_toco.png" alt="Tucano-Toco">
+            <p>O tucano-toco é uma ave conhecida pelo bico grande e colorido. Alimenta-se de frutos e também de pequenos animais. Pode ser encontrado em áreas como o Cerrado.</p>
+            <br><br>
+            <h2>Cuidados com a natureza</h2>
+            <ul type="circle">
+                <li>Descarte o lixo nos locais adequados.</li>
+                <li>Observe os animais sem tocar ou oferecer alimentos.</li>
+                <li>Respeite a vegetação e os espaços de preservação.</li>
+            </ul>
+            <br>
+        </section>
+        <section id="participe" class="par">
+            <h2>Participe do WebZoo!!!</h2>
+            <form action="#">
+                <fieldset>
+                    <legend>Seus Dados aqui!</legend>
+                    <p>
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    </p>
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                    </p>
+                    <p>
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+                    </p>
+                    <p>
+                        <label for="animal">Seu Animal Preferido:</label>
+                        <select name="animais" id="animal">
+                            <option value="">Escolha um animal</option>
+                            <option value="onca_pintada">Onça-Pintada</option>
+                            <option value="tucano-toco">Tucano-Toco</option>
+                            <option value="capivara">Capivara</option>
+                        </select>
+                    </p>
+                </fieldset>
+                <button type="submit">Envie!</button>
+            </form>
+            <br>
+        </section>
+    </main>
+    <footer>
+        <p>WebZoo - Educação ambiental</p>
+        <p>Anna Beatriz</p>
+    </footer>
+</body>
+</html>

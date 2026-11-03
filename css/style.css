@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    margin: 0%;
+    background-color:#f4f1e8;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+header{
+    background-color: #4F7D45;
+}
+header img{
+    width: 600px;
+}
+nav{
+    background-color:#D99A29 ;
+}
+nav a{
+    color:#4F7D45
+}
+img{
+    width: 900px
+}
+fieldset{
+    border: 2px solid #D99A29;
+    border-radius: 25px;
+    margin: 25px;
+}
+.sob{
+    background-color:#4F7D45;
+    border: 2px solid #25332b;
+    border-radius: 40px;
+    margin: 40px;
+    color:#f4f1e8
+}
+.ani{
+    background-color:#D99A29;
+    border: 2px solid #25332b;
+    border-radius: 40px;
+    margin: 40px;
+    color:#f4f1e8
+}
+.par{
+    background-color:#163e2e;
+    border: 2px solid #25332b;
+    border-radius: 40px;
+    margin: 40px;
+    color:#f4f1e8
+}
+.sob h2{
+    color:#163e2e;
+}
+.ani h2{
+    color:#25332b;
+}
+.ani h3{
+    color:#4F7D45
+}
+.par h2{
+    color: #D99A29;
+
+}
+button{
+    background-color: #D99A29;
+    border-radius: 10px;
+    color:#f4f1e8;
+}
